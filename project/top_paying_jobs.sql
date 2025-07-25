@@ -18,7 +18,7 @@ left join company_dim on job_postings_fact.company_id=company_dim.company_id
 
 WHERE
     job_title_short='Data Analyst' AND
-    job_location='Indiaa' and salary_year_avg is not null
+    job_location='Anywhere' and salary_year_avg is not null
 order BY
     salary_year_avg desc
 limit 10
